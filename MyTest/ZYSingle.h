@@ -10,4 +10,7 @@
 
 @interface ZYSingle : NSObject
 
++(ZYSingle*)shareSingle;
+
+
 @end
