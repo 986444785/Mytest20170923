@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  ShowView.h
 //  MyTest
 //
 //  Created by chenweibin on 2017/9/23.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface ShowView : UIView
 
 @end

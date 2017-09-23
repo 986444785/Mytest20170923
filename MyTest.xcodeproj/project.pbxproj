@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE0924741F76BA450089310F /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0924711F76BA450089310F /* MainViewController.h */; };
-		BE0924751F76BA450089310F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0924721F76BA450089310F /* MainViewController.m */; };
-		BE0924761F76BA450089310F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE0924731F76BA450089310F /* MainViewController.xib */; };
+		BE0924791F76BC420089310F /* ShowView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0924771F76BC420089310F /* ShowView.h */; };
+		BE09247A1F76BC420089310F /* ShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0924781F76BC420089310F /* ShowView.m */; };
 		BEC93FF81F721EB100126B7B /* MyTest.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93FF61F721EB100126B7B /* MyTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEC940001F721EC200126B7B /* ZYSingle.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93FFE1F721EC200126B7B /* ZYSingle.h */; };
 		BEC940011F721EC200126B7B /* ZYSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93FFF1F721EC200126B7B /* ZYSingle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE0924711F76BA450089310F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		BE0924721F76BA450089310F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		BE0924731F76BA450089310F /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		BE0924771F76BC420089310F /* ShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowView.h; sourceTree = "<group>"; };
+		BE0924781F76BC420089310F /* ShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowView.m; sourceTree = "<group>"; };
 		BEC93FF31F721EB100126B7B /* MyTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC93FF61F721EB100126B7B /* MyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTest.h; sourceTree = "<group>"; };
 		BEC93FF71F721EB100126B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,9 +57,8 @@
 				BEC93FF61F721EB100126B7B /* MyTest.h */,
 				BEC93FFE1F721EC200126B7B /* ZYSingle.h */,
 				BEC93FFF1F721EC200126B7B /* ZYSingle.m */,
-				BE0924711F76BA450089310F /* MainViewController.h */,
-				BE0924721F76BA450089310F /* MainViewController.m */,
-				BE0924731F76BA450089310F /* MainViewController.xib */,
+				BE0924771F76BC420089310F /* ShowView.h */,
+				BE0924781F76BC420089310F /* ShowView.m */,
 				BEC93FF71F721EB100126B7B /* Info.plist */,
 			);
 			path = MyTest;
@@ -74,7 +71,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE0924741F76BA450089310F /* MainViewController.h in Headers */,
+				BE0924791F76BC420089310F /* ShowView.h in Headers */,
 				BEC93FF81F721EB100126B7B /* MyTest.h in Headers */,
 				BEC940001F721EC200126B7B /* ZYSingle.h in Headers */,
 			);
@@ -138,7 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE0924761F76BA450089310F /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC940011F721EC200126B7B /* ZYSingle.m in Sources */,
-				BE0924751F76BA450089310F /* MainViewController.m in Sources */,
+				BE09247A1F76BC420089310F /* ShowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
