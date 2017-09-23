@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BE0924791F76BC420089310F /* ShowView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0924771F76BC420089310F /* ShowView.h */; };
 		BE09247A1F76BC420089310F /* ShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0924781F76BC420089310F /* ShowView.m */; };
+		BE09247D1F76BCA60089310F /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BE09247B1F76BCA60089310F /* MainViewController.h */; };
+		BE09247E1F76BCA60089310F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09247C1F76BCA60089310F /* MainViewController.m */; };
 		BEC93FF81F721EB100126B7B /* MyTest.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93FF61F721EB100126B7B /* MyTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEC940001F721EC200126B7B /* ZYSingle.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC93FFE1F721EC200126B7B /* ZYSingle.h */; };
 		BEC940011F721EC200126B7B /* ZYSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC93FFF1F721EC200126B7B /* ZYSingle.m */; };
@@ -17,6 +19,8 @@
 /* Begin PBXFileReference section */
 		BE0924771F76BC420089310F /* ShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowView.h; sourceTree = "<group>"; };
 		BE0924781F76BC420089310F /* ShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowView.m; sourceTree = "<group>"; };
+		BE09247B1F76BCA60089310F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BE09247C1F76BCA60089310F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		BEC93FF31F721EB100126B7B /* MyTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC93FF61F721EB100126B7B /* MyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTest.h; sourceTree = "<group>"; };
 		BEC93FF71F721EB100126B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				BEC93FFF1F721EC200126B7B /* ZYSingle.m */,
 				BE0924771F76BC420089310F /* ShowView.h */,
 				BE0924781F76BC420089310F /* ShowView.m */,
+				BE09247B1F76BCA60089310F /* MainViewController.h */,
+				BE09247C1F76BCA60089310F /* MainViewController.m */,
 				BEC93FF71F721EB100126B7B /* Info.plist */,
 			);
 			path = MyTest;
@@ -73,6 +79,7 @@
 			files = (
 				BE0924791F76BC420089310F /* ShowView.h in Headers */,
 				BEC93FF81F721EB100126B7B /* MyTest.h in Headers */,
+				BE09247D1F76BCA60089310F /* MainViewController.h in Headers */,
 				BEC940001F721EC200126B7B /* ZYSingle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC940011F721EC200126B7B /* ZYSingle.m in Sources */,
+				BE09247E1F76BCA60089310F /* MainViewController.m in Sources */,
 				BE09247A1F76BC420089310F /* ShowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
